@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="typescript">
+<head>
+	<meta charset="UTF-8">
+	<title>TypeScript!</title>
+</head>
+<body ng-controller="mainCtrl">
+
+<h1>{{ test }}</h1>
+
+<ul>
+	<li ng-repeat="person in people">{{ person.name }} : {{ person.age }}</li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="/dist/bundle.js"></script>
+</body>
+</html>
